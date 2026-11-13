@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prototipi Hero</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400..800&family=Cambo&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="prova.css">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="arr" viewBox="0 0 24 24"><path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"/></symbol>
+</svg>
+
+<nav class="switcher" aria-label="Prototipi">
+  <a href="#p1" aria-current="true">01</a>
+  <a href="#p2">02</a>
+  <a href="#p3">03</a>
+  <a href="#p4">04</a>
+  <a href="#p5">05</a>
+</nav>
+
+<!-- 01 — EDITORIALE -->
+<section class="hero h1" id="p1">
+  <p class="tag">01 — Editoriale</p>
+  <div class="hero__inner">
+    <h1 class="h1__title">
+      <span class="line"><span>Progettiamo</span></span>
+      <span class="line"><span style="--d:.08s">marchi <span class="amp">&amp;</span> prodotti</span></span>
+      <span class="line"><span style="--d:.16s">che restano.</span></span>
+    </h1>
+    <div class="h1__foot">
+      <p class="lead fade">Uno studio indipendente di design e sviluppo. Lavoriamo con poche aziende alla volta, dall'identità al codice.</p>
+      <div class="actions fade" style="--d:.55s">
+        <a href="#" class="btn-pill">
+          Inizia un progetto
+          <span class="btn-pill__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><use href="#arr"/></svg>
+            <svg viewBox="0 0 24 24"><use href="#arr"/></svg>
+          </span>
+        </a>
+        <a href="#" class="link-u">Guarda i lavori</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 02 — INCHIOSTRO -->
+<section class="hero h2" id="p2">
+  <p class="tag">02 — Inchiostro</p>
+  <div class="hero__inner">
+    <h2 class="h2__title">
+      <span class="line"><span>Meno rumore,</span></span>
+      <span class="line"><span style="--d:.08s"><em>più segno.</em></span></span>
+    </h2>
+    <p class="lead fade">Sistemi visivi essenziali per team che preferiscono la chiarezza all'effetto speciale.</p>
+    <div class="actions fade" style="--d:.55s">
+      <a href="#" class="btn-fill btn-fill--solid"><span class="roll" data-label="Prenota una call"><span>Prenota una call</span></span></a>
+      <a href="#" class="btn-fill"><span class="roll" data-label="Il metodo"><span>Il metodo</span></span></a>
+    </div>
+  </div>
+</section>
+
+<!-- 03 — FLASH (tattoo old school) -->
+<section class="hero h3" id="p3">
+  <p class="tag">03 — Flash</p>
+  <div class="h3__frame" aria-hidden="true">
+    <span class="h3__corner pix" data-flash="spark"></span>
+    <span class="h3__corner pix" data-flash="spark"></span>
+    <span class="h3__corner pix" data-flash="spark"></span>
+    <span class="h3__corner pix" data-flash="spark"></span>
+  </div>
+
+  <div class="hero__inner">
+    <div class="h3__wall fade" style="--d:.5s">
+      <figure class="flash"><span class="pix" data-flash="heart"></span><figcaption><span>№ 01</span><span>Cuore</span></figcaption></figure>
+      <figure class="flash"><span class="pix" data-flash="dagger"></span><figcaption><span>№ 02</span><span>Pugnale</span></figcaption></figure>
+    </div>
+
+    <div class="h3__center">
+      <p class="h3__kicker fade" style="--d:0s">Tattoo &amp; pixel · dal MMXXVI</p>
+      <div class="h3__mark">
+        <h2 class="h3__title"><span class="line"><span>Inchiostro</span></span></h2>
+        <p class="ribbon fade" style="--d:.35s"><span>per sempre</span></p>
+      </div>
+      <p class="h3__lead fade" style="--d:.45s">Flash disegnati a mano, un pixel alla volta. Walk-in il sabato, il resto su appuntamento.</p>
+      <div class="actions fade" style="--d:.6s; justify-content:center">
+        <a href="#" class="btn-ink"><span class="pix" data-flash="spark" aria-hidden="true"></span>Prenota la seduta</a>
+        <a href="#" class="btn-banner"><span>Sfoglia i flash</span></a>
+      </div>
+      <a href="#" class="badge fade" style="--d:.8s" aria-label="Walk-in benvenuti: orari del sabato">
+        <svg class="ring" viewBox="0 0 120 120" aria-hidden="true">
+          <defs><path id="circ" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0"/></defs>
+          <circle cx="60" cy="60" r="58" fill="none" stroke="currentColor" stroke-width="2"/>
+          <circle cx="60" cy="60" r="35" fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="2 3"/>
+          <text><textPath href="#circ">WALK-IN BENVENUTI ★ WALK-IN BENVENUTI ★</textPath></text>
+        </svg>
+        <span class="pix" data-flash="heart" aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div class="h3__wall fade" style="--d:.65s">
+      <figure class="flash"><span class="pix" data-flash="anchor"></span><figcaption><span>№ 03</span><span>Ancora</span></figcaption></figure>
+      <figure class="flash"><span class="pix" data-flash="skull"></span><figcaption><span>№ 04</span><span>Teschio</span></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- 04 — GRIGLIA -->
+<section class="hero h4" id="p4">
+  <p class="tag">04 — Griglia</p>
+  <div class="hero__inner">
+    <div class="h4__top">
+      <h2 class="h4__title">
+        <span class="line"><span>Strategia, design</span></span>
+        <span class="line"><span style="--d:.08s"><span class="amp">&amp;</span> tecnologia <span class="muted">sotto</span></span></span>
+        <span class="line"><span style="--d:.16s"><span class="muted">lo stesso tetto.</span></span></span>
+      </h2>
+      <div class="h4__meta fade">
+        <p><strong>Milano</strong> — 45.46° N</p>
+        <p>Disponibili per nuovi progetti da gennaio 2027.</p>
+      </div>
+    </div>
+    <ul class="bars fade" style="--d:.5s">
+      <li><a href="#" class="bar"><span class="bar__n">01</span>Identità di marca<svg class="bar__arrow" viewBox="0 0 24 24"><use href="#arr"/></svg></a></li>
+      <li><a href="#" class="bar"><span class="bar__n">02</span>Prodotti digitali<svg class="bar__arrow" viewBox="0 0 24 24"><use href="#arr"/></svg></a></li>
+      <li><a href="#" class="bar bar--key"><span class="bar__n">03</span>Parliamone<svg class="bar__arrow" viewBox="0 0 24 24"><use href="#arr"/></svg></a></li>
+    </ul>
+  </div>
+</section>
+
+<!-- 05 — ARANCIO -->
+<section class="hero h5" id="p5">
+  <p class="tag" style="--x:0">05 — Arancio</p>
+  <div class="hero__inner">
+    <h2 class="h5__title">
+      <span class="line"><span>Hai un'idea?</span></span>
+      <span class="line"><span style="--d:.08s">Facciamola.</span></span>
+    </h2>
+    <div class="h5__row">
+      <p class="lead fade">Raccontaci cosa hai in mente. Rispondiamo entro due giorni lavorativi, sempre.</p>
+      <a href="#" class="btn-mag fade" style="--d:.6s" data-magnetic>
+        <span class="btn-mag__ring" aria-hidden="true"></span>
+        <span class="btn-mag__label">Scrivici<br>ora</span>
+      </a>
+    </div>
+  </div>
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>Design</span><span>Sviluppo</span><span>Identità</span><span>Motion</span><span>Strategia</span><span>Design</span><span>Sviluppo</span><span>Identità</span><span>Motion</span><span>Strategia</span>
+    </div>
+  </div>
+</section>
+
+<script>
+  // Pixel art dei flash: X = inchiostro, o = carta, d = retino a scacchiera
+  const FLASH = {
+    heart: ["..XXX...XXX..",".XoooX.XoooX.","XoooooXoooddX","XoooooooooddX","XoooooooodddX",".XoooooooddX.","..XoooooddX..","...XoooddX...","....XoodX....",".....XdX.....","......X......"],
+    dagger: ["....X....","...XoX...","...XoX...","..XoodX..","..XoodX..","..XoodX..","..XoodX..","..XoodX..","..XoodX..","XXXXXXXXX","XoooodddX","XXXXXXXXX","...XdX...","...XdX...","...XdX...","...XdX...","..XXXXX..","..XoodX..","..XXXXX.."],
+    anchor: ["....XXX....","....XoX....","....XXX....","..XXXXXXX..",".....X.....",".....X.....",".....X.....",".....X.....","X....X....X","XX...X...XX",".XX..X..XX.","..XXXXXXX..","....XXX...."],
+    skull: ["...XXXXX...",".XXoooooXX.","XoooooooodX","XoXXXoXXXdX","XoXXXoXXXdX","XooooXooddX",".XoooooodX.","..XoXoXoX..","..XXXXXXX.."],
+    spark: ["....X....","....X....","...XoX...","..XoooX..","XXoooodXX","..XoodX..","...XdX...","....X....","....X...."]
+  };
+  document.querySelectorAll('[data-flash]').forEach(el => {
+    const g = FLASH[el.dataset.flash]; if (!g) return;
+    const h = g.length, w = g[0].length; let k = '', p = '';
+    g.forEach((row, y) => [...row].forEach((c, x) => {
+      const ink = c === 'X' || (c === 'd' && (x + y) % 2 === 0);
+      if (ink) k += `M${x} ${y}h1v1h-1z`;
+      else if (c !== '.') p += `M${x} ${y}h1v1h-1z`;
+    }));
+    el.innerHTML = `<svg viewBox="0 0 ${w} ${h}" shape-rendering="crispEdges" aria-hidden="true" style="width:calc(${w} * var(--px))"><path class="w" d="${p}"/><path fill="currentColor" d="${k}"/></svg>`;
+  });
+  // Bottone magnetico (solo puntatore fine, motion non ridotto)
+  const fine = matchMedia('(pointer: fine)').matches && !matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (fine) document.querySelectorAll('[data-magnetic]').forEach(btn => {
+    const label = btn.querySelector('.btn-mag__label');
+    btn.addEventListener('pointermove', e => {
+      const r = btn.getBoundingClientRect();
+      const x = e.clientX - (r.left + r.width / 2);
+      const y = e.clientY - (r.top + r.height / 2);
+      btn.style.transform = `translate(${x * .35}px, ${y * .35}px)`;
+      label.style.transform = `translate(${x * .15}px, ${y * .15}px)`;
+    });
+    btn.addEventListener('pointerleave', () => { btn.style.transform = ''; label.style.transform = ''; });
+  });
+
+  // Switcher: evidenzia il prototipo visibile
+  const links = [...document.querySelectorAll('.switcher a')];
+  const io = new IntersectionObserver(entries => entries.forEach(en => {
+    if (en.isIntersecting) links.forEach(a => a.setAttribute('aria-current', a.hash === '#' + en.target.id));
+  }), { threshold: .5 });
+  document.querySelectorAll('.hero').forEach(s => io.observe(s));
+</script>
+</body>
+</html>
